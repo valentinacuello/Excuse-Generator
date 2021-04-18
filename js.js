@@ -6,7 +6,7 @@ var when = ['before the class','right in time','when I finished','during my lunc
 
 function excuseGenerator(){
     let whoIndex = Math.floor(Math.random() * who.length);
-    let actionIndex = Math.floor(Math.random());
+    let actionIndex = Math.floor(Math.random() * what.length);
     let whatIndex = Math.floor(Math.random() * what.length);
     let whenIndex = Math.floor(Math.random() * when.length);
 
